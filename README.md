@@ -1,18 +1,18 @@
 # Evaluation of a Manifacturing Process
 
-### GOAL
+### 🎯 GOAL
 To support process stability and quality assurance in a manufacturing setting by using SQL to implement **Statistical Process Control (SPC) techniques** — identifying deviations, flagging anomalies, and surfacing operational risks through data.
 <br><br>
 
-### OVERVIEW
+### 🗺️ OVERVIEW
 This case study explores how SQL can be used to monitor a manufacturing process in real time. The goal was to go beyond simple aggregation and build logic that detects control limit violations, uncovers early signs of instability, and identifies systemic operator-related issues.
 <br><br>
 
-### CONTEXT
+### 🏭 CONTEXT
 In manufacturing, even small deviations can have cascading effects. By applying control limits and SPC techniques, organizations can avoid unnecessary process adjustments while reacting quickly to real issues. This project simulates that monitoring process using a manufacturing_parts dataset and SQL queries that rely on window functions, conditional logic, and row-level flags.
 <br><br>
 
-### TASKS
+### 🔍 TASKS
 Each question in the analysis built upon the last, moving from basic control flagging to operational insights:
 
 * **Control Limit Alert**
@@ -21,7 +21,7 @@ Each question in the analysis built upon the last, moving from basic control fla
   - 💡 Business value: Enables immediate detection of faulty outputs and supports consistent quality across production runs.
 
 * **Rolling Mean Deviation.**
-  -📌 Purpose: Track how much a part's height deviates from the recent average.
+  - 📌 Purpose: Track how much a part's height deviates from the recent average.
   - 🧠 Why it matters: Subtle shifts in measurements can indicate an emerging issue.
   - 💡 Business value: Helps detect gradual drift before it leads to quality failures.
 
@@ -37,10 +37,10 @@ Each question in the analysis built upon the last, moving from basic control fla
 
 * **Operator Stability Check.**
   - 📌 Purpose: Flags operators whose batches frequently contain violations.
-  = 🧠 Why it matters: Repeated errors may reflect equipment calibration or training issues.
-  = 💡 Business value: Informs retraining needs and resource allocation.
+  - 🧠 Why it matters: Repeated errors may reflect equipment calibration or training issues.
+  - 💡 Business value: Informs retraining needs and resource allocation.
 <br><br>
 
-### Key Takeaways
+### 🧩 Key Takeaways
 Using SQL alone, this project demonstrates how manufacturing teams can implement core SPC practices using data they already collect. The resulting logic can be integrated into dashboards, alerting systems, or daily QC reports — no code migration or new tooling required.
 
