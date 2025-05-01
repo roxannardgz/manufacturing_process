@@ -62,7 +62,7 @@ Each query built upon the last, progressively layering in more targeted insights
 * **Control Limit Violations Count.**
   - 📌 Purpose: Count how many violations occurred per operator.
   - 🧠 Why it matters: Quantifies instability across the process.
-  -💡 Business value: Enables targeted investigation into batches or shifts.
+  - 💡 Business value: Enables targeted investigation into batches or shifts.
 
 * **First Violation Detection.**
   - 📌 Purpose: Identify the first part in the production line that violates control limits.
